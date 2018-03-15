@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/axios047/camtalk/issues"
   },
-  "homepage": "https://github.com/axios047/camtalk#readme"
+  "homepage": "https://github.com/axios047/camtalk#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "parallax-js": "^3.1.0"
+  }
 }
