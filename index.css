@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  overflow: hidden;
 }
 
 .wrap{
@@ -12,7 +13,7 @@ body{
 }
 
 .main{
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 .branding{
@@ -38,7 +39,7 @@ body{
 
 
 .shadow{
-  background: url("shadow.png");
+  background: url("shadow.svg");
   background-size: contain;
   width: 300px;
   height: 50px;
@@ -61,7 +62,7 @@ body{
 }
 
 .logo{
-  background: url("logo.png");
+  background: url("logo.svg");
   background-size: contain;
   width: 300px;
   height: 300px;
@@ -83,7 +84,7 @@ body{
 
 }
 .logotype{
-  background: url("logotype.png");
+  background: url("logotype.svg");
   background-size: contain;
   width: 300px;
   height: 300px;
@@ -118,7 +119,7 @@ h1:hover{
 }
 
 .gallery{
-  background: whitesmoke;
+  background: #fff;
   position: absolute;
   /* width: 0vw;
   height: 100vh;
@@ -156,4 +157,13 @@ img{
   border-radius: 20px;
   border:  30px solid #fff;
   box-shadow: 0px 0px 20px #ddd;
+}
+
+iframe{
+  position: absolute;
+  width: 100%;
+  margin: 100%;
+  left: 40vw;
+  right: 0px;
+  margin: 10px;
 }
